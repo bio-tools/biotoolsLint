@@ -4,7 +4,7 @@
 
 | Field  | Validation | Logging level |
 | ------ | ---------- | ------------- | 
-| Span <td colspan=3> [name](https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name)
+| <td colspan=3> [name](https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name)
 
 |        | Name is unique within bio.tools | ERROR         |
 
