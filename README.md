@@ -10,7 +10,7 @@
     <td>Status</td>
 </tr>
   
-<tr><td colspan="3"><a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>name</a> (<a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>Summary</a>)</td></tr>
+<tr><td colspan="3"><a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>name</a> (<a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>summary</a> group)</td></tr>
 <tr>
     <td>Invalid cardinality (1 only allowed)</td>
     <td>ERROR</td>
