@@ -6,6 +6,7 @@
 <tr>
     <td>Validation</td>
     <td>Log level</td>
+    <td>Issue</td>
     <td>Status</td>
 </tr>
   
@@ -13,10 +14,12 @@
 <tr>
     <td>Cardinality: 1 only</td>
     <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd</a></td>
+    <td>tbd</td>
 </tr>
 <tr>
     <td>Name is unique within bio.tools</td>
     <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/30>30</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/30>30<a/></td>
+    <td>tbd</td>
 </tr>
