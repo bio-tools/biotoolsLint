@@ -25,13 +25,13 @@
 </tr>
 <tr>
     <td>Invalid syntax (length)</td>
-    <td>ERROR</td>
+    <td>WARN</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
     <td>Invalid syntax (pattern)</td>
-    <td>ERROR</td>
+    <td>WARN</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
     <td>tbd</td>
 </tr>
