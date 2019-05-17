@@ -10,16 +10,34 @@
     <td>Status</td>
 </tr>
   
-<tr><td colspan="3"><a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>name</td></tr>
+<tr><td colspan="3"><a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>name</td> (<a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>Summary)</tr>
 <tr>
-    <td>Cardinality: 1 only</td>
+    <td>Invalid cardinality (1 only allowed)</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd</a></td>
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Name is unique within bio.tools</td>
+    <td>Name is taken (not unique within bio.tools)</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/30>30<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Name similarity (exact match to substring of existing tool name)</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
     <td>tbd</td>
 </tr>
