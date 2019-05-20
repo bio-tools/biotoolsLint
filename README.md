@@ -39,15 +39,15 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Invalid syntax (pattern)</td>
+    <td>Invalid syntax (disallowed characters)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Invalid syntax (characters)</td>
+    <td>Invalid syntax (disallowed whitespace)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
@@ -86,9 +86,9 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Invalid syntax (pattern)</td>
+    <td>Invalid syntax (disallowed whitespace)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
@@ -175,15 +175,15 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"><b>version:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#version>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#version-tool>curators guide</a> </td></tr>
 
 <tr>
-    <td>Invalid syntax (pattern)</td>
+    <td>Invalid syntax (disallowed characters)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Invalid syntax (characters)</td>
+    <td>Invalid syntax (disallowed whitespace)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
@@ -216,9 +216,9 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <tr><td colspan="4"><b>otherID->version</b>
 <tr>
-    <td>Invalid syntax (pattern)</td>
+    <td>Invalid syntax (disallowed characters)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
@@ -227,3 +227,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
     <td>tbd</td>
 </tr>
+
+
+
+Summary group
+-------------
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#function-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#function-group>curators guide</a>
+
+![function group](images/function.png)
+![operation](images/operation.png)
