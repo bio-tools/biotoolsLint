@@ -192,3 +192,38 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
     <td>tbd</td>
 </tr>
+
+<!--- summary->otherID --->
+
+<tr><td colspan="4">
+<tr><td colspan="4"><b>otherID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#other-ids>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#other-ids>curators guide</a> </td></tr>
+
+<tr><td colspan="4"><b>otherID->value</b>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"><b>otherID->type</b>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"><b>otherID->version</b>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
+    <td>tbd</td>
+</tr>
