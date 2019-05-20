@@ -4,15 +4,18 @@
 
 **Table below will comprehensively list all validations (in progress)**
 
+
+**Summary group:** <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>schema docs</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>curators guide</a>)
+
 <table>
 <tr>
-    <td>Validation (summary group: <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>schema docs</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>curators guide</a>)</td>
+    <td>Validation</td>
     <td>Log level</td>
     <td>Issue</td>
     <td>Status</td>
 </tr>
   
-<tr><td colspan="3">name: <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#name-tool#curators guide>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>name:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#name-tool#curators guide>curators guide</a> </td></tr>
 <tr>
     <td>Invalid cardinality (1 only allowed)</td>
     <td>ERROR</td>
