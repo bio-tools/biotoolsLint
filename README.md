@@ -139,9 +139,32 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Duplicates existing tool homepage URL</td>
+    <td>Uses existing tool homepage URL</td>
     <td>WARN</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/38>38<a/></td>
     <td>tbd</td>
 </tr>
 
+<!--- summary->biotoolsID --->
+
+<tr><td colspan="4">
+<tr><td colspan="4"><b>homepage:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolsid>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#id105>curators guide</a> </td></tr>
+
+<tr>
+    <td>Mismatch of biotoolsID & biotoolsCURIE</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/22>22<a/></td>
+    <td>tbd</td>
+</tr>
+
+<!--- summary->biotoolsCURIE --->
+
+<tr><td colspan="4">
+<tr><td colspan="4"><b>homepage:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolscurie>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#biotoolscurie>curators guide</a> </td></tr>
+
+<tr>
+    <td>Mismatch of biotoolsID & biotoolsCURIE</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/22>22<a/></td>
+    <td>tbd</td>
+</tr>
