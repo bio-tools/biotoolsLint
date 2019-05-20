@@ -21,7 +21,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr>
     <td>Invalid cardinality (1 only allowed)</td>
     <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd</a></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/33>33</a></td>
     <td>tbd</td>
 </tr>
 <tr>
@@ -31,20 +31,32 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Invalid syntax (length)</td>
+    <td>Invalid syntax (pattern)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Invalid syntax (pattern)</td>
+    <td>Invalid syntax (length)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Name includes technical jargon</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/31>31<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Name includes version or status info.</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/26>26<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
     <td>Name similarity (full-length exact match to substring of existing tool name)</td>
     <td>INFO</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/>tbd<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/32>32<a/></td>
     <td>tbd</td>
 </tr>
