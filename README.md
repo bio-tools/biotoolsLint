@@ -12,6 +12,7 @@ Summary group
 See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>curators guide</a>
 
 ![summary group](images/summary.png)
+
 ![otherid](images/otherid.png)
 
 <table>
@@ -77,7 +78,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- summary->description --->
 
-<tr><td colspan="4">
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>description:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#description>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#description>curators guide</a> </td></tr>
 <tr>
     <td>Invalid cardinality (1 only allowed)</td>
@@ -118,7 +119,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- summary->homepage --->
 
-<tr><td colspan="4">
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>homepage:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#homepage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#homepage>curators guide</a> </td></tr>
 <tr>
     <td>Invalid cardinality (1 only allowed)</td>
@@ -147,7 +148,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- summary->biotoolsID --->
 
-<tr><td colspan="4">
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>biotoolsID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolsid>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#id105>curators guide</a> </td></tr>
 
 <tr>
@@ -159,7 +160,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- summary->biotoolsCURIE --->
 
-<tr><td colspan="4">
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>biotoolsCURIE:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolscurie>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#biotoolscurie>curators guide</a> </td></tr>
 
 <tr>
@@ -171,7 +172,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- summary->version --->
 
-<tr><td colspan="4">
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>version:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#version>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#version-tool>curators guide</a> </td></tr>
 
 <tr>
@@ -195,7 +196,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- summary->otherID --->
 
-<tr><td colspan="4">
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>otherID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#other-ids>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#other-ids>curators guide</a> </td></tr>
 
 <tr><td colspan="4"><b>otherID->value</b>
@@ -230,9 +231,57 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 </table>
 
 
-Summary group
--------------
+Function group
+--------------
 See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#function-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#function-group>curators guide</a>
 
 ![function group](images/function.png)
+
 ![operation](images/operation.png)
+
+<table>
+<tr>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
+</tr>
+
+
+<!--- function->operation --->
+
+<tr><td colspan="4"><b>name:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#operation>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#operation>curators guide</a> </td></tr>
+
+<tr><td colspan="4"><b>function->operation->uri</b></tr>
+<tr>
+    <td>Placeholder EDAM concept (not normally used for annotation)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Deprecated EDAM concept</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Duplicated EDAM concept</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/3>3</a></td>
+    <td>tbd</td>
+</tr>
+<tr><td colspan="4"><b>function->operation->term</b></tr>
+<tr>
+    <td>Invalid term</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Use of synonym</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td>tbd</td>
+</tr>
+</table>
