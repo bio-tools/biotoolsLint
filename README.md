@@ -16,10 +16,10 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <table>
 <tr>
-    <td>Verification</td>
-    <td>Log level</td>
-    <td>Issue</td>
-    <td>Status</td>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
 </tr>
 
 
