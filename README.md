@@ -227,7 +227,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
     <td>tbd</td>
 </tr>
-
+</table>
 
 
 Summary group
