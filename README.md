@@ -53,7 +53,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr>
     <td>Invalid syntax (length)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>34<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
@@ -189,6 +189,6 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr>
     <td>Invalid syntax (length)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>34<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
     <td>tbd</td>
 </tr>
