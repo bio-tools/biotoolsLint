@@ -168,3 +168,27 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/22>22<a/></td>
     <td>tbd</td>
 </tr>
+
+<!--- summary->version --->
+
+<tr><td colspan="4">
+<tr><td colspan="4"><b>version:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#version>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#version-tool>curators guide</a> </td></tr>
+
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (characters)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>34<a/></td>
+    <td>tbd</td>
+</tr>
