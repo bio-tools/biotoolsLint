@@ -77,6 +77,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- summary->description --->
 
+<tr><td colspan="4">
 <tr><td colspan="4"><b>description:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#description>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#description>curators guide</a> </td></tr>
 <tr>
     <td>Invalid cardinality (1 only allowed)</td>
@@ -115,4 +116,32 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 
+<!--- summary->homepage --->
+
+<tr><td colspan="4">
+<tr><td colspan="4"><b>homepage:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#homepage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#homepage>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid cardinality (1 only allowed)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/33>33</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Broken link</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/12>12<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Duplicates existing tool homepage URL</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/38>38<a/></td>
+    <td>tbd</td>
+</tr>
 
