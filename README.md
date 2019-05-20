@@ -2,12 +2,16 @@
 **biotoolsLint** is a utility (under design!) for verification and reporting of content of the [ELIXIR Tools & Data Services Registry](https://bio.tools).  It will verify the content according to the bio.tools [Curators Guide](https://biotools.readthedocs.io/en/latest/curators_guide.html), Tool Information Standard(https://bio-tools.github.io/Tool-Information-Standard/) and other checks, and produce reports for puposes of content quality control and labelling.
 
 
-**Tables below will comprehensively list all validations (in progress)**
+**One table below / groups defined in biotoolsSchema.   The tables will comprehensively list all validations (in progress)**
+
+![summary group](images/tool.png)
 
 
 Summary group
 -------------
 See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>curators guide</a>
+
+![summary group](images/summary.png)
 
 <table>
 <tr>
