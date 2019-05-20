@@ -12,6 +12,7 @@ Summary group
 See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>curators guide</a>
 
 ![summary group](images/summary.png)
+![otherid](images/otherid.png)
 
 <table>
 <tr>
@@ -20,8 +21,11 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>Issue</td>
     <td>Status</td>
 </tr>
-  
-<tr><td colspan="4"><b>name:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#name-tool#curators guide>curators guide</a> </td></tr>
+
+
+<!--- summary->name --->
+
+<tr><td colspan="4"><b>name:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#name>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#name-tool>curators guide</a> </td></tr>
 <tr>
     <td>Invalid cardinality (1 only allowed)</td>
     <td>ERROR</td>
@@ -64,3 +68,8 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/32>32<a/></td>
     <td>tbd</td>
 </tr>
+
+<!--- summary->description --->
+
+<tr><td colspan="4"><b>description:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#description>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#description>curators guide</a> </td></tr>
+
