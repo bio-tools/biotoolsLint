@@ -16,7 +16,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <table>
 <tr>
-    <td>Validation</td>
+    <td>Verification</td>
     <td>Log level</td>
     <td>Issue</td>
     <td>Status</td>
@@ -45,19 +45,25 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Invalid syntax (length)</td>
+    <td>Invalid syntax (characters)</td>
     <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Name includes technical jargon</td>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Includes technical jargon</td>
     <td>WARN</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/31>31<a/></td>
     <td>tbd</td>
 </tr>
 <tr>
-    <td>Name includes version or status info.</td>
+    <td>Includes version or status info</td>
     <td>WARN</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/26>26<a/></td>
     <td>tbd</td>
@@ -72,4 +78,41 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <!--- summary->description --->
 
 <tr><td colspan="4"><b>description:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#description>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#description>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid cardinality (1 only allowed)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/33>33</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Wrong or missing capitalisation and full stops</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/35>35<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Includes DOI(s)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/28>28<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Includes URL(s)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/27>27<a/></td>
+    <td>tbd</td>
+</tr>
+
 
