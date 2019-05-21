@@ -350,7 +350,6 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>note:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#function>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#note-function>curators guide</a> </td></tr>
 
-<tr><td colspan="4"><b>note</b></tr>
 <tr>
     <td>Invalid syntax (disallowed whitespace)</td>
     <td>WARN</td>
@@ -369,7 +368,6 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>cmd:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#function>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#command>curators guide</a> </td></tr>
 
-<tr><td colspan="4"><b>cmd</b></tr>
 <tr>
     <td>Invalid syntax (disallowed whitespace)</td>
     <td>WARN</td>
