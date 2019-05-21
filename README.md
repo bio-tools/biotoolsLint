@@ -294,6 +294,36 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
     <td>tbd</td>
 </tr>
+<tr>
+    <td>Missing input</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/42>42</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Missing output</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/43>43</a></td>
+    <td>tbd</td>
+</tr>
+
+<!--- function->input|output->data --->
+
+<tr><td colspan="4"><b>input|output->data:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#data>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#data-type-input-and-output-data>curators guide</a> </td></tr>
+
+<tr><td colspan="4"><b>input|output->data->uri</b></tr>
+<tr>
+    <td>Undefined Data::Topic relation</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Undefined Data::Operation relation</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
+    <td>tbd</td>
+</tr>
 </table>
 
 See also the [general EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications).
@@ -333,7 +363,7 @@ See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthed
 <tr>
     <td>Use of synonym</td>
     <td>INFO</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
     <td>tbd</td>
 </tr>
 </table>
