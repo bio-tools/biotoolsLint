@@ -425,3 +425,119 @@ See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthed
     <td>tbd</td>
 </tr>
 </table>
+
+
+
+## Labels group
+
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#labels-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>curators guide</a>
+
+![summary group](images/labels.png)
+
+<table>
+<tr>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
+</tr>
+
+
+<!--- labels->toolType --->
+
+<tr><td colspan="4"><b>toolType:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#toolType>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#toolType>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->topic --->
+
+<tr><td colspan="4"><b>topic:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#topic>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#topic>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->operatingSystem --->
+
+<tr><td colspan="4"><b>operatingSystem:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#operatingSystem>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#operatingSystem>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->language --->
+
+<tr><td colspan="4"><b>language:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#language>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#language>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->license --->
+
+<tr><td colspan="4"><b>license:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#license>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#license>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->collectionID --->
+
+<tr><td colspan="4"><b>collectionID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#collectionID>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#collectionID>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->maturity --->
+
+<tr><td colspan="4"><b>maturity:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#maturity>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->cost --->
+
+<tr><td colspan="4"><b>cost:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#cost>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#cost>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- labels->accessibility --->
+
+<tr><td colspan="4"><b>accessibility:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#accessibility>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+</table>
