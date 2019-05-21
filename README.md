@@ -32,7 +32,7 @@ The verifications are exhaustively tabulated below, including one table / elemen
 ### General verifications
 
 - [EDAM verifications](https://github.com/bio-tools/biotoolslint#edam)
-- [Genera verifications](https://github.com/bio-tools/biotoolslint#general)
+- [General verifications](https://github.com/bio-tools/biotoolslint#general)
 
 
 
@@ -281,13 +281,36 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <tr><td colspan="4"><b>operation:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#operation>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#operation>curators guide</a> </td></tr>
 
+See the [general EDAM verifications]().
+
 <tr><td colspan="4"><b>operation->uri</b></tr>
 <tr>
-    <td>Duplicated EDAM concept</td>
+    <td>Duplicated operation</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/3>3</a></td>
     <td>tbd</td>
 </tr>
+<tr>
+    <td>Undefined Operation::Topic relation</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
+    <td>tbd</td>
+</tr>
+</table>
+
+
+## General EDAM verifications
+
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#function-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#function-group>curators guide</a>
+
+<table>
+<tr>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
+</tr>
+<tr><td colspan="4"><b>topic|operation|data|format->uri</b></tr>
 <tr>
     <td>Placeholder EDAM concept (not normally used for annotation)</td>
     <td>WARN</td>
@@ -300,7 +323,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
     <td>tbd</td>
 </tr>
-<tr><td colspan="4"><b>operation->term</b></tr>
+<tr><td colspan="4"><b>topic|operation|data|format->term</b></tr>
 <tr>
     <td>Invalid term</td>
     <td>ERROR</td>
@@ -311,12 +334,6 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>Use of synonym</td>
     <td>INFO</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
-    <td>tbd</td>
-</tr>
-<tr>
-    <td>Undefined Operation::Topic relation</td>
-    <td>INFO</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
     <td>tbd</td>
 </tr>
 </table>
