@@ -10,13 +10,11 @@
 * miscellaneous other checks, *e.g.* broken link detection, tool name uniqueness *etc.* 
 
 
-Verifications 
--------------
+## Verifications 
 
 The verifications are exhaustively tabulated below, including one table / element group defined in biotoolsSchema.
 
-Element-specific verifications
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### Element-specific verifications
 
 ![summary group](images/tool.png)
 
@@ -31,16 +29,15 @@ Element-specific verifications
 - [Credits group](https://github.com/bio-tools/biotoolslint#credits-group)
 
 
-General verifications
-^^^^^^^^^^^^^^^^^^^^^
+### General verifications
 
 - [EDAM verifications](https://github.com/bio-tools/biotoolslint#edam)
 - [Genera verifications](https://github.com/bio-tools/biotoolslint#general)
 
 
 
-Summary group
--------------
+## Summary group
+
 See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#summary-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>curators guide</a>
 
 ![summary group](images/summary.png)
@@ -263,8 +260,8 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 </table>
 
 
-Function group
---------------
+## Function group
+
 See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#function-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#function-group>curators guide</a>
 
 ![function group](images/function.png)
