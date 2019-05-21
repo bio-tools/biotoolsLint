@@ -445,7 +445,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- labels->toolType --->
 
-<tr><td colspan="4"><b>toolType:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#toolType>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#toolType>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>toolType:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#toolType>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
@@ -467,7 +467,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- labels->operatingSystem --->
 
-<tr><td colspan="4"><b>operatingSystem:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#operatingSystem>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#operatingSystem>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>operatingSystem:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#operatingSystem>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
@@ -478,7 +478,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- labels->language --->
 
-<tr><td colspan="4"><b>language:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#language>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#language>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>language:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#programming-language>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#programming-language>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
@@ -500,7 +500,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- labels->collectionID --->
 
-<tr><td colspan="4"><b>collectionID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#collectionID>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#collectionID>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>collectionID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#collection>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#collection>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
