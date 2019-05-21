@@ -31,8 +31,8 @@ The verifications are exhaustively tabulated below, including one table / elemen
 
 ### General verifications
 
-- [EDAM verifications](https://github.com/bio-tools/biotoolslint#edam)
-- [General verifications](https://github.com/bio-tools/biotoolslint#general)
+- [General EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications)
+- [Other general verifications](https://github.com/bio-tools/biotoolslint#other-general-verifications)
 
 
 
@@ -281,7 +281,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <tr><td colspan="4"><b>operation:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#operation>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#operation>curators guide</a> </td></tr>
 
-See the [general EDAM verifications]().
+See the [general EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications).
 
 <tr><td colspan="4"><b>operation->uri</b></tr>
 <tr>
