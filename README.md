@@ -432,7 +432,7 @@ See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthed
 
 See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#labels-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>curators guide</a>
 
-![summary group](images/labels.png)
+![labels group](images/labels.png)
 
 <table>
 <tr>
