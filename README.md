@@ -309,6 +309,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- function->input|output->data --->
 
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>input|output->data:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#data>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#data-type-input-and-output-data>curators guide</a> </td></tr>
 
 <tr><td colspan="4"><b>input|output->data->uri</b></tr>
@@ -327,6 +328,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- function->input|output->format --->
 
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>input|output->format:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#format>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#data-format-input-and-output-data>curators guide</a> </td></tr>
 
 <tr><td colspan="4"><b>input|output->format->uri</b></tr>
@@ -365,6 +367,8 @@ See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthed
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
     <td>tbd</td>
 </tr>
+
+<tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>topic | operation | data | format->term</b></tr>
 <tr>
     <td>Invalid term</td>
