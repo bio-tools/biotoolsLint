@@ -324,6 +324,18 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
     <td>tbd</td>
 </tr>
+
+<!--- function->input|output->format --->
+
+<tr><td colspan="4"><b>input|output->format:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#format>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#data-format-input-and-output-data>curators guide</a> </td></tr>
+
+<tr><td colspan="4"><b>input|output->format->uri</b></tr>
+<tr>
+    <td>Undefined Data::Format relation</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
+    <td>tbd</td>
+</tr>
 </table>
 
 See also the [general EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications).
