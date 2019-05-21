@@ -333,7 +333,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <tr><td colspan="4"><b>input|output->format->uri</b></tr>
 <tr>
-    <td>Duplicated operation</td>
+    <td>Duplicated format</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/3>3</a></td>
     <td>tbd</td>
@@ -457,12 +457,16 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <!--- labels->topic --->
 
 <tr><td colspan="4"><b>topic:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#topic>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#topic>curators guide</a> </td></tr>
+
+<tr><td colspan="4"><b>topic->uri</b></tr>
 <tr>
-    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>Duplicated topic</td>
     <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/3>3</a></td>
     <td>tbd</td>
 </tr>
+<tr><td colspan="4">See also the <a href="https://github.com/bio-tools/biotoolslint#general-edam-verifications">general EDAM verifications</a></tr>
+
 
 <tr><td colspan="4"></tr>
 <!--- labels->operatingSystem --->
