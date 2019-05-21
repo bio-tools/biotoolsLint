@@ -12,10 +12,12 @@
 
 Verifications 
 -------------
+
 The verifications are exhaustively tabulated below, including one table / element group defined in biotoolsSchema.
 
 Element-specific verifications
 ..............................
+
 ![summary group](images/tool.png)
 
 
@@ -31,6 +33,7 @@ Element-specific verifications
 
 General verifications
 .....................
+
 - [EDAM verifications](https://github.com/bio-tools/biotoolslint#edam)
 - [Genera verifications](https://github.com/bio-tools/biotoolslint#general)
 
