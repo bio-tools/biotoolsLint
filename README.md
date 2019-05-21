@@ -1,10 +1,39 @@
 # What is biotoolsLint?
-**biotoolsLint** is a utility (under design!) for verification and reporting of content of the [ELIXIR Tools & Data Services Registry](https://bio.tools).  It will verify the content according to the bio.tools [Curators Guide](https://biotools.readthedocs.io/en/latest/curators_guide.html), Tool Information Standard(https://bio-tools.github.io/Tool-Information-Standard/) and other checks, and produce reports for puposes of content quality control and labelling.
+
+**biotoolsLint is under design : coding has not started and this page may be missing information**
+
+**biotoolsLint** is a utility for verification and reporting of content of the [ELIXIR Tools & Data Services Registry](https://bio.tools).  It will, for purposes of content quality control and labelling, verify the content according to:
+* tool description syntax defined by [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema)
+* correct or recommended use of the [EDAM ontology](https://github.com/edamontology/edamontology/)
+* curation best practice from the bio.tools [Curators Guide](https://biotools.readthedocs.io/en/latest/curators_guide.html) (in so far as these recommendations can be automatically verified)
+* compliance to the Tool Information Standard(https://bio-tools.github.io/Tool-Information-Standard/)
+* miscellaneous other checks, *e.g.* broken link detection, tool name uniqueness *etc.* 
 
 
-**One table below / groups defined in biotoolsSchema.   The tables will comprehensively list all validations (in progress)**
+Verifications 
+-------------
+The verifications are exhaustively tabulated below, including one table / element group defined in biotoolsSchema.
 
+Element-specific verifications
+..............................
 ![summary group](images/tool.png)
+
+
+- [Summary group](https://github.com/bio-tools/biotoolslint#summary-group)
+- [Function group](https://github.com/bio-tools/biotoolslint#function-group)
+- [Labels group](https://github.com/bio-tools/biotoolslint#labels-group)
+- [Links group](https://github.com/bio-tools/biotoolslint#links-group)
+- [Downloads group](https://github.com/bio-tools/biotoolslint#downloads-group)
+- [Documentation group](https://github.com/bio-tools/biotoolslint#documentation-group)
+- [Publications group](https://github.com/bio-tools/biotoolslint#publications-group)
+- [Credits group](https://github.com/bio-tools/biotoolslint#credits-group)
+
+
+General verifications
+.....................
+- [EDAM verifications](https://github.com/bio-tools/biotoolslint#edam)
+- [Genera verifications](https://github.com/bio-tools/biotoolslint#general)
+
 
 
 Summary group
