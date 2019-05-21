@@ -6,7 +6,7 @@
 * tool description syntax defined by [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema)
 * correct or recommended use of the [EDAM ontology](https://github.com/edamontology/edamontology/)
 * curation best practice from the bio.tools [Curators Guide](https://biotools.readthedocs.io/en/latest/curators_guide.html) (in so far as these recommendations can be automatically verified)
-* compliance to the Tool Information Standard(https://bio-tools.github.io/Tool-Information-Standard/)
+* compliance to the [Tool Information Standard](https://bio-tools.github.io/Tool-Information-Standard/)
 * miscellaneous other checks, *e.g.* broken link detection, tool name uniqueness *etc.* 
 
 
