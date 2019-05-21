@@ -281,8 +281,6 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <tr><td colspan="4"><b>operation:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#operation>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#operation>curators guide</a> </td></tr>
 
-See the [general EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications).
-
 <tr><td colspan="4"><b>operation->uri</b></tr>
 <tr>
     <td>Duplicated operation</td>
@@ -298,10 +296,12 @@ See the [general EDAM verifications](https://github.com/bio-tools/biotoolslint#g
 </tr>
 </table>
 
+See also the [general EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications).
+
 
 ## General EDAM verifications
 
-See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#function-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#function-group>curators guide</a>
+See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthedocs.io/en/latest/technical_details.html?highlight=placeholder#placeholder-concepts) and [concept deprecations](https://edamontologydocs.readthedocs.io/en/latest/developers_guide.html?highlight=deprecation#deprecating-concepts).
 
 <table>
 <tr>
@@ -310,7 +310,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><b>Issue</b></td>
     <td><b>Status</b></td>
 </tr>
-<tr><td colspan="4"><b>topic|operation|data|format->uri</b></tr>
+<tr><td colspan="4"><b>topic | operation | data | format->uri</b></tr>
 <tr>
     <td>Placeholder EDAM concept (not normally used for annotation)</td>
     <td>WARN</td>
@@ -323,7 +323,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
     <td>tbd</td>
 </tr>
-<tr><td colspan="4"><b>topic|operation|data|format->term</b></tr>
+<tr><td colspan="4"><b>topic | operation | data | format->term</b></tr>
 <tr>
     <td>Invalid term</td>
     <td>ERROR</td>
