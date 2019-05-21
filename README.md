@@ -333,9 +333,53 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <tr><td colspan="4"><b>input|output->format->uri</b></tr>
 <tr>
+    <td>Duplicated operation</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/3>3</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
     <td>Undefined Data::Format relation</td>
     <td>WARN</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
+    <td>tbd</td>
+</tr>
+
+<!--- function->note --->
+
+<tr><td colspan="4"></tr>
+<tr><td colspan="4"><b>note:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#function>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#note-function>curators guide</a> </td></tr>
+
+<tr><td colspan="4"><b>note</b></tr>
+<tr>
+    <td>Invalid syntax (disallowed whitespace)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
+    <td>tbd</td>
+</tr>
+
+<!--- function->cmd --->
+
+<tr><td colspan="4"></tr>
+<tr><td colspan="4"><b>cmd:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#function>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#command>curators guide</a> </td></tr>
+
+<tr><td colspan="4"><b>cmd</b></tr>
+<tr>
+    <td>Invalid syntax (disallowed whitespace)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
     <td>tbd</td>
 </tr>
 </table>
