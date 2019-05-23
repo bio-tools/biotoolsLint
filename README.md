@@ -605,7 +605,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- download-type --->
 
-<tr><td colspan="4"><b>type:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#download>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#downloadtype>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>type:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#download>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#downloadt-ype>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
