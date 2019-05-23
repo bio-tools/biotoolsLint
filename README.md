@@ -635,7 +635,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 ## Documentation group
 
-See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#documentations-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#documentations-group>curators guide</a>
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#documentation-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>curators guide</a>
 
 ![labels group](images/documentation.png)
 
