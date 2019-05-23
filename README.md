@@ -283,6 +283,18 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <tr><td colspan="4"><b>operation->uri</b></tr>
 <tr>
+    <td>Placeholder EDAM concept (not normally used for annotation)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Deprecated EDAM concept</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
     <td>Duplicated operation</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/3>3</a></td>
@@ -307,12 +319,39 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 
+<tr><td colspan="4"><b>operation->term</b></tr>
+<tr>
+    <td>Invalid term</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Use of synonym</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
+    <td>tbd</td>
+</tr>
+
+
 <!--- function->input|output->data --->
 
 <tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>input|output->data:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#data>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#data-type-input-and-output-data>curators guide</a> </td></tr>
 
 <tr><td colspan="4"><b>input|output->data->uri</b></tr>
+<tr>
+    <td>Placeholder EDAM concept (not normally used for annotation)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Deprecated EDAM concept</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
+    <td>tbd</td>
+</tr>
 <tr>
     <td>Undefined Data::Topic relation</td>
     <td>INFO</td>
@@ -326,12 +365,39 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 
+<tr><td colspan="4"><b>data->term</b></tr>
+<tr>
+    <td>Invalid term</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Use of synonym</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
+    <td>tbd</td>
+</tr>
+
+
 <!--- function->input|output->format --->
 
 <tr><td colspan="4"></tr>
 <tr><td colspan="4"><b>input|output->format:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#format>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#data-format-input-and-output-data>curators guide</a> </td></tr>
 
 <tr><td colspan="4"><b>input|output->format->uri</b></tr>
+<tr>
+    <td>Placeholder EDAM concept (not normally used for annotation)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Deprecated EDAM concept</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
+    <td>tbd</td>
+</tr>
 <tr>
     <td>Duplicated format</td>
     <td>ERROR</td>
@@ -344,6 +410,21 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/41>41</a></td>
     <td>tbd</td>
 </tr>
+
+<tr><td colspan="4"><b>format->term</b></tr>
+<tr>
+    <td>Invalid term</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Use of synonym</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
+    <td>tbd</td>
+</tr>
+
 
 <!--- function->note --->
 
@@ -423,7 +504,32 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/3>3</a></td>
     <td>tbd</td>
 </tr>
-<tr><td colspan="4">See also the <a href="https://github.com/bio-tools/biotoolslint#general-edam-verifications">general EDAM verifications</a></tr>
+<tr>
+    <td>Placeholder EDAM concept (not normally used for annotation)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Deprecated EDAM concept</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"><b>topic->term</b></tr>
+<tr>
+    <td>Invalid term</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Use of synonym</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
+    <td>tbd</td>
+</tr>
 
 
 <tr><td colspan="4"></tr>
