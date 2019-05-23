@@ -696,15 +696,6 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 
 
-<!--- labels->toolType --->
-
-<tr><td colspan="4"><b>toolType:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#toolType>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>curators guide</a> </td></tr>
-<tr>
-    <td>Invalid value (must adhere to controlled vocabulary)</td>
-    <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
-    <td>tbd</td>
-</tr>
 
 
 
