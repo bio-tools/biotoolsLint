@@ -31,7 +31,6 @@ The verifications are exhaustively tabulated below, including one table / elemen
 
 ### General verifications
 
-- [General EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications)
 - [Other general verifications](https://github.com/bio-tools/biotoolslint#other-general-verifications)
 
 
@@ -1044,46 +1043,5 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 </tr>
 </table>
 
-
-## General EDAM verifications
-
-See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthedocs.io/en/latest/technical_details.html?highlight=placeholder#placeholder-concepts) and [concept deprecations](https://edamontologydocs.readthedocs.io/en/latest/developers_guide.html?highlight=deprecation#deprecating-concepts).
-
-<table>
-<tr>
-    <td><b>Verification</b></td>
-    <td><b>Log level</b></td>
-    <td><b>Issue</b></td>
-    <td><b>Status</b></td>
-</tr>
-<tr><td colspan="4"><b>topic | operation | data | format->uri</b></tr>
-<tr>
-    <td>Placeholder EDAM concept (not normally used for annotation)</td>
-    <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
-    <td>tbd</td>
-</tr>
-<tr>
-    <td>Deprecated EDAM concept</td>
-    <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
-    <td>tbd</td>
-</tr>
-
-<tr><td colspan="4"></tr>
-<tr><td colspan="4"><b>topic | operation | data | format->term</b></tr>
-<tr>
-    <td>Invalid term</td>
-    <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
-    <td>tbd</td>
-</tr>
-<tr>
-    <td>Use of synonym</td>
-    <td>INFO</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
-    <td>tbd</td>
-</tr>
-</table>
 
 
