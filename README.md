@@ -23,7 +23,7 @@ The verifications are exhaustively tabulated below, including one table / elemen
 - [Function group](https://github.com/bio-tools/biotoolslint#function-group)
 - [Labels group](https://github.com/bio-tools/biotoolslint#labels-group)
 - [Links group](https://github.com/bio-tools/biotoolslint#links-group)
-- [Downloads group](https://github.com/bio-tools/biotoolslint#downloads-group)
+- [Download group](https://github.com/bio-tools/biotoolslint#download-group)
 - [Documentation group](https://github.com/bio-tools/biotoolslint#documentation-group)
 - [Publications group](https://github.com/bio-tools/biotoolslint#publications-group)
 - [Credits group](https://github.com/bio-tools/biotoolslint#credits-group)
@@ -570,9 +570,9 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 
 
-## Downloads group
+## Download group
 
-See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#downloads-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#downloads-group>curators guide</a>
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#download-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#download-group>curators guide</a>
 
 ![labels group](images/download.png)
 
