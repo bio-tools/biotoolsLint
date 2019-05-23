@@ -158,7 +158,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 </tr>
 <tr>
     <td>Invalid syntax (pattern)</td>
-    <td>WARN</td>
+    <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
     <td>tbd</td>
 </tr>
@@ -385,48 +385,6 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 See also the [general EDAM verifications](https://github.com/bio-tools/biotoolslint#general-edam-verifications).
 
 
-## General EDAM verifications
-
-See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthedocs.io/en/latest/technical_details.html?highlight=placeholder#placeholder-concepts) and [concept deprecations](https://edamontologydocs.readthedocs.io/en/latest/developers_guide.html?highlight=deprecation#deprecating-concepts).
-
-<table>
-<tr>
-    <td><b>Verification</b></td>
-    <td><b>Log level</b></td>
-    <td><b>Issue</b></td>
-    <td><b>Status</b></td>
-</tr>
-<tr><td colspan="4"><b>topic | operation | data | format->uri</b></tr>
-<tr>
-    <td>Placeholder EDAM concept (not normally used for annotation)</td>
-    <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
-    <td>tbd</td>
-</tr>
-<tr>
-    <td>Deprecated EDAM concept</td>
-    <td>WARN</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
-    <td>tbd</td>
-</tr>
-
-<tr><td colspan="4"></tr>
-<tr><td colspan="4"><b>topic | operation | data | format->term</b></tr>
-<tr>
-    <td>Invalid term</td>
-    <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
-    <td>tbd</td>
-</tr>
-<tr>
-    <td>Use of synonym</td>
-    <td>INFO</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
-    <td>tbd</td>
-</tr>
-</table>
-
-
 
 ## Labels group
 
@@ -545,3 +503,126 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 </table>
+
+
+
+
+## Links group
+
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#links-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#links-group>curators guide</a>
+
+![labels group](images/link.png)
+
+<table>
+<tr>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- link->url --->
+
+<tr><td colspan="4"><b>url:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#link>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#url-link>curators guide</a> </td></tr>
+<!--- link-url --->
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Broken link</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/12>12<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- link-type --->
+
+<tr><td colspan="4"><b>type:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#link>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#linktype>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- link->note --->
+
+<tr><td colspan="4"><b>note:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#link>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#note-link>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid syntax (disallowed whitespace)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
+    <td>tbd</td>
+</tr>
+</table>
+
+
+
+
+
+<!--- labels->toolType --->
+
+<tr><td colspan="4"><b>toolType:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#toolType>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+
+
+## General EDAM verifications
+
+See the docs on on EDAM [placeholder concepts](https://edamontologydocs.readthedocs.io/en/latest/technical_details.html?highlight=placeholder#placeholder-concepts) and [concept deprecations](https://edamontologydocs.readthedocs.io/en/latest/developers_guide.html?highlight=deprecation#deprecating-concepts).
+
+<table>
+<tr>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
+</tr>
+<tr><td colspan="4"><b>topic | operation | data | format->uri</b></tr>
+<tr>
+    <td>Placeholder EDAM concept (not normally used for annotation)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/10>10</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Deprecated EDAM concept</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/6>6</a></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<tr><td colspan="4"><b>topic | operation | data | format->term</b></tr>
+<tr>
+    <td>Invalid term</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/7>7</a></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Use of synonym</td>
+    <td>INFO</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/8>8</a></td>
+    <td>tbd</td>
+</tr>
+</table>
+
+
