@@ -178,7 +178,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <!--- summary->biotoolsID --->
 
 <tr><td colspan="4"></tr>
-<tr><td colspan="4"><b>biotoolsID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolsid>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#id105>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>biotoolsID:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolsid>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-biotoolsID>curators guide</a> </td></tr>
 
 <tr>
     <td>Mismatch of biotoolsID & biotoolsCURIE</td>
@@ -190,7 +190,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <!--- summary->biotoolsCURIE --->
 
 <tr><td colspan="4"></tr>
-<tr><td colspan="4"><b>biotoolsCURIE:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolscurie>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#biotoolscurie>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>biotoolsCURIE:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#biotoolscurie>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#summary-biotoolscurie>curators guide</a> </td></tr>
 
 <tr>
     <td>Mismatch of biotoolsID & biotoolsCURIE</td>
@@ -807,7 +807,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 <!--- credit->elixirPlatform --->
 
-<tr><td colspan="4"><b>elixirPlatform:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#elixirPlatform>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>elixirPlatform:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#credit-elixirPlatform>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
@@ -818,7 +818,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->elixirNode --->
 
-<tr><td colspan="4"><b>elixirNode:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#elixirNode>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>elixirNode:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#credit-elixirNode>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
