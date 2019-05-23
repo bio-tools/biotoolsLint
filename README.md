@@ -832,7 +832,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->name --->
 
-<tr><td colspan="4"><b>name:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#name-credit>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>name:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#name-credit>curators guide</a> </td></tr>
 <tr>
     <td>Invalid syntax (disallowed characters)</td>
     <td>WARN</td>
@@ -855,7 +855,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->email --->
 
-<tr><td colspan="4"><b>email:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#email>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>email:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#email>curators guide</a> </td></tr>
 <tr>
     <td>Invalid syntax (pattern)</td>
     <td>ERROR</td>
@@ -866,7 +866,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->url --->
 
-<tr><td colspan="4"><b>url:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#url-credit>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>url:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#url-credit>curators guide</a> </td></tr>
 <tr>
     <td>Invalid syntax (pattern)</td>
     <td>ERROR</td>
@@ -883,7 +883,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->orcidid --->
 
-<tr><td colspan="4"><b>orcidid:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#orcid-id>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>orcidid:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#orcid-id>curators guide</a> </td></tr>
 <tr>
     <td>Invalid syntax (pattern)</td>
     <td>ERROR</td>
@@ -901,7 +901,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->typeEntity --->
 
-<tr><td colspan="4"><b>typeEntity:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>typeEntity:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
@@ -912,7 +912,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->typeRole --->
 
-<tr><td colspan="4"><b>typeRole:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#entity-role>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>typeRole:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#entity-role>curators guide</a> </td></tr>
 <tr>
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
@@ -923,7 +923,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- credit->note --->
 
-<tr><td colspan="4"><b>note:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#note-credit>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>note:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#note-credit>curators guide</a> </td></tr>
 <tr>
     <td>Invalid syntax (disallowed whitespace)</td>
     <td>WARN</td>
