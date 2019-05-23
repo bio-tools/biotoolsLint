@@ -490,6 +490,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
     <td>tbd</td>
 </tr>
+<tr>
+    <td>Duplicated toolType</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/4>4</a></td>
+    <td>tbd</td>
+</tr>
 
 <tr><td colspan="4"></tr>
 <!--- labels->topic --->
@@ -541,6 +547,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
     <td>tbd</td>
 </tr>
+<tr>
+    <td>Duplicated operatingSystem</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/4>4</a></td>
+    <td>tbd</td>
+</tr>
 
 <tr><td colspan="4"></tr>
 <!--- labels->language --->
@@ -550,6 +562,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Duplicated language</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/4>4</a></td>
     <td>tbd</td>
 </tr>
 
@@ -572,6 +590,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Duplicated collectionID</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/4>4</a></td>
     <td>tbd</td>
 </tr>
 
@@ -605,6 +629,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Duplicated accessibility</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/4>4</a></td>
     <td>tbd</td>
 </tr>
 </table>
@@ -815,6 +845,18 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><b>Status</b></td>
 </tr>
 
+<!--- General publication verifications --->
+
+<tr><td colspan="4"><b>General publication verifications:</b></tr>
+<tr>
+    <td>Duplicate publication ID</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/2>2<a/>, <a href=https://github.com/bio-tools/biotoolsLint/issues/1>1<a/></td>
+    <td>tbd</td>
+</tr>
+
+
+<tr><td colspan="4"></tr>
 <!--- publication->doi --->
 
 <tr><td colspan="4"><b>doi:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#publication>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#digital-object-id>curators guide</a> </td></tr>
@@ -826,9 +868,15 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>tbd</td>
 </tr>
 <tr>
+    <td>Suspect DOI syntax (terminal fullstop)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/23>23<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
     <td>Unresolvable publication ID</td>
     <td>ERROR</td>
-    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/5>5<a/></td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/5>5<a/>, <a href=https://github.com/bio-tools/biotoolsLint/issues/20>20<a/></td>
     <td>tbd</td>
 </tr>
 
@@ -911,6 +959,18 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 </tr>
 
 
+<!--- General credit verifications --->
+
+<tr><td colspan="4"><b>General credit verifications:</b></tr>
+<tr>
+    <td>Duplicate credit (of various types)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/14>14<a/></td>
+    <td>tbd</td>
+</tr>
+
+
+<tr><td colspan="4"></tr>
 <!--- credit->elixirNode --->
 
 <tr><td colspan="4"><b>elixirNode:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#credit-elixirnode>curators guide</a> </td></tr>
@@ -918,6 +978,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Duplicate elixirNode credit</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/13>13<a/></td>
     <td>tbd</td>
 </tr>
 
@@ -930,6 +996,12 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td>Invalid value (must adhere to controlled vocabulary)</td>
     <td>ERROR</td>
     <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Duplicate elixirPlatform credit</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/13>13<a/></td>
     <td>tbd</td>
 </tr>
 
@@ -1044,4 +1116,36 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 </table>
 
 
+## General verifications
 
+
+<table>
+<tr>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
+</tr>
+
+<!--- tool IDs --->
+
+<tr><td colspan="4"><b>tool IDs</b> </tr>
+<!--- Unverified toolIDs --->
+<tr>
+    <td>Unverified toolID</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/11>11<a/></td>
+    <td>tbd</td>
+</tr>
+
+<!--- duplicates --->
+<tr><td colspan="4"></tr>
+<tr><td colspan="4"><b>duplicates</b> </tr>
+<!--- Suspected duplicate entry --->
+<tr>
+    <td>Suspected duplicate entry</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/25>25<a/></td>
+    <td>tbd</td>
+</tr>
+</table>
