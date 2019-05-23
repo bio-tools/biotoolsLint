@@ -793,9 +793,9 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 
 ## Credits group
 
-See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#credits-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.credits-group>curators guide</a>
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#credits-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide#credits-group>curators guide</a>
 
-![labels group](images/publication.png)
+![labels group](images/credit.png)
 
 <table>
 <tr>
