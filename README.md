@@ -710,11 +710,44 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
     <td><b>Status</b></td>
 </tr>
 
-<tr><td colspan="4"></tr>
 <!--- publication->doi --->
 
 <tr><td colspan="4"><b>doi:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#publication>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#digital-object-id>curators guide</a> </td></tr>
 <!--- publication-doi --->
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Unresolvable publication ID</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/5>5<a/></td>
+    <td>tbd</td>
+</tr>
+
+
+<!--- publication-pmid --->
+<tr><td colspan="4"><b>pmid:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#publication>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#pubmed-id>curators guide</a> </td></tr>
+<tr><td colspan="4"></tr>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Unresolvable publication ID</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/5>5<a/></td>
+    <td>tbd</td>
+</tr>
+
+
+<!--- publication-pmcid --->
+<tr><td colspan="4"><b>pmcid:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#publication>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#pubmed-central-id>curators guide</a> </td></tr>
+<tr><td colspan="4"></tr>
 <tr>
     <td>Invalid syntax (pattern)</td>
     <td>ERROR</td>
@@ -742,7 +775,7 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 <tr><td colspan="4"></tr>
 <!--- publication->version --->
 
-<tr><td colspan="4"><b>note:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#publication>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#version-publication>curators guide</a> </td></tr>
+<tr><td colspan="4"><b>version:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#publication>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#version-publication>curators guide</a> </td></tr>
 <tr>
     <td>Invalid syntax (disallowed characters)</td>
     <td>WARN</td>
