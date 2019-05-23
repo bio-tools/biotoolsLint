@@ -791,6 +791,150 @@ See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_eleme
 </table>
 
 
+## Credits group
+
+See <a href=https://biotoolsschema.readthedocs.io/en/latest/biotoolsschema_elements.html#credits-group>schema docs</a> & <a href=https://biotools.readthedocs.io/en/latest/curators_guide.credits-group>curators guide</a>
+
+![labels group](images/publication.png)
+
+<table>
+<tr>
+    <td><b>Verification</b></td>
+    <td><b>Log level</b></td>
+    <td><b>Issue</b></td>
+    <td><b>Status</b></td>
+</tr>
+
+<!--- credit->elixirPlatform --->
+
+<tr><td colspan="4"><b>elixirPlatform:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#elixirPlatform>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- credit->elixirNode --->
+
+<tr><td colspan="4"><b>elixirNode:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#credit>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#elixirNode>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- credit->name --->
+
+<tr><td colspan="4"><b>name:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#name-credit>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid syntax (disallowed characters)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/37>37<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (disallowed whitespace)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- credit->email --->
+
+<tr><td colspan="4"><b>email:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#email>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- credit->url --->
+
+<tr><td colspan="4"><b>url:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#url-credit>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Broken link</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/12>12<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- credit->orcidid --->
+
+<tr><td colspan="4"><b>orcidid:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#orcid-id>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid syntax (pattern)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/34>34<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Unresolvable ORCID ID</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/45>45<a/></td>
+    <td>tbd</td>
+</tr>
+
+
+<tr><td colspan="4"></tr>
+<!--- credit->typeEntity --->
+
+<tr><td colspan="4"><b>typeEntity:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- credit->typeRole --->
+
+<tr><td colspan="4"><b>typeRole:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#entity-role>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid value (must adhere to controlled vocabulary)</td>
+    <td>ERROR</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/39>39<a/></td>
+    <td>tbd</td>
+</tr>
+
+<tr><td colspan="4"></tr>
+<!--- credit->note --->
+
+<tr><td colspan="4"><b>note:</b> <a href=https://biotools.readthedocs.io/en/latest/api_usage_guide.html#API usage>API usage</a>, <a href=https://biotools.readthedocs.io/en/latest/curators_guide.html#note-credit>curators guide</a> </td></tr>
+<tr>
+    <td>Invalid syntax (disallowed whitespace)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/40>40<a/></td>
+    <td>tbd</td>
+</tr>
+<tr>
+    <td>Invalid syntax (length)</td>
+    <td>WARN</td>
+    <td><a href=https://github.com/bio-tools/biotoolsLint/issues/36>36<a/></td>
+    <td>tbd</td>
+</tr>
+</table>
+
 
 ## General EDAM verifications
 
